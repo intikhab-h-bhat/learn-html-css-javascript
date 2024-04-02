@@ -6,16 +6,18 @@
     <title>Document</title>
   </head>
   <body>
-  
     <p id="car1"></p>
-    
 
     <script>
       const car = ["Baleno", "Espresso", "Alto"];
-
-      
-        document.getElementById("car1").innerHTML = car[1];
-      
+      let carlenth = car.length;
+      let text="<ul>";
+      for(let i=0; i<carlenth;i++)
+      {
+        text+="<li>" + car[i] + "</li>";
+      }
+      text+="</ul>";
+      document.getElementById("car1").innerHTML = text;
     </script>
   </body>
 </html>
