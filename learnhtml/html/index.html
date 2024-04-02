@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      defer
+      src="C:/Users/lenovo/Documents/GitHub/learn-html-css-javascript/learnhtml/JS/main.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="demo">
+      <h1>First Heading.</h1>
+      <h2>Second Heading</h2>
+      <h3>Third Heading</h3>
+    </div>
+    <p id="addnum"></p>
+    <p id="para1">This is my first paragraph</p>
+    <p id="para2">This is my Second paragraph</p>
+
+    <p>Third Paragraph</p>
+<script>
+    let text = "Hello world!";
+    let result = text.repeat(4);
+    // let resultslice=result.slice
+    const alphabitmatch=text.match(/l/g)
+    document.getElementById("para1").innerHTML = result;
+    document.getElementById("para2").innerHTML=alphabitmatch;
+</script>
+  </body>
+</html>
