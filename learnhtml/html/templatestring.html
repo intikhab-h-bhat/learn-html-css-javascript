@@ -9,17 +9,10 @@
 <p id="name"></p>
 
     <script>
-        let fname="Intikhab Hussain Bhat"
-        const details =[44,"Nowgam","Srinagar"]
-        let html=`<h1> ${fname}<h1> <ul>`;
+        let fname="Intikhab"
+        let lname="Bhat"
 
-            for (const x of details){
-                html+=`<li>${x}</li>`;
-
-            }
-            html+=`<ul>`;
-
-        document.getElementById("name").innerHTML=html
+        document.getElementById("name").innerHTML=`Welcome ${fname} , ${lname}!`
 
 
     </script>
