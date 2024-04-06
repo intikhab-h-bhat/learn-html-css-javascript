@@ -48,6 +48,17 @@ body {
       width: 100%;
     }
 }
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+/* Footer style */
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
 
 
