@@ -1,5 +1,9 @@
+
+
+document.getElementById("demo123").innerhtml="Welcome Javascript";
+
 function myFunction() {
-  document.getElementById("para1").innerHTML = "Hello Javascript";
+  document.getElementById("demo123").innerHTML = "Hello Javascript";
 }
 function addNumbers() {
   let x = 5;
@@ -8,15 +12,15 @@ function addNumbers() {
   document.getElementById("addnum").innerHTML = z;
 }
 
-class Car {
-  constructor(name,year) {
-    this.name=name;
-    this.year=year;
-  }
-  age() {
-    const date=new Date();
-    return date.getFullYear() - this.year;
-  }
-  }
-  const car1 = new Car("Ford",2014);
-  document.getElementById("para3").innerHTML = car1.age();
+// class Car {
+//   constructor(name,year) {
+//     this.name=name;
+//     this.year=year;
+//   }
+//   age() {
+//     const date=new Date();
+//     return date.getFullYear() - this.year;
+//   }
+//   }
+//   const car1 = new Car("Ford",2014);
+//   document.getElementById("para3").innerHTML = car1.age();
