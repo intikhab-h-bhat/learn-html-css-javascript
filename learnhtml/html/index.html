@@ -11,27 +11,23 @@
   </head>
 
   <body>
-    <div id="demo">
-      <h1>First Heading.</h1>
-      <h2>Second Heading</h2>
-      <h3>Third Heading</h3>
-    </div>
-    <p id="addnum"></p>
-    <p id="para1">This is my first paragraph</p>
-    <p id="para2">This is my Second paragraph</p>
-    <p id="para3">Class Demo</p>
-
-    <p>Third Paragraph</p>
-<script>
-    let text = "Hello world!";
-    let result = text.repeat(4);
-    // let resultslice=result.slice
-    const alphabitmatch=text.match(/l/g)
-    document.getElementById("para1").innerHTML = result;
-    document.getElementById("para2").innerHTML=alphabitmatch;
-
-  
-
-</script>
+       
+    <h2>JavaScript For Loop</h2>
+    
+    <p id="demo"></p>
+    
+    <script>
+    const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
+    
+    let text = "";
+    for (let i = 0; i < cars.length; i++) {
+      text += cars[i] + "<br>";
+    }
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    
+   
+    
   </body>
 </html>
