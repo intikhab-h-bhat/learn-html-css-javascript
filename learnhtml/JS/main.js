@@ -1,6 +1,5 @@
 
 
-document.getElementById("demo123").innerhtml="Welcome Javascript";
 
 function myFunction() {
   document.getElementById("demo123").innerHTML = "Hello Javascript";
