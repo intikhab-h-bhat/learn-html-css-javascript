@@ -20,6 +20,40 @@ function countImages() {
   let txtValue = document.getElementById("textbox").value;
   let imgList = document.getElementById("images");
   images.innerHTML = "";
+  let numimg = txtValue;
+  
+  // Display the specified number of images
+  for (let i = 1; i <= numimg; i++) {
+    let image = document.createElement("img");
+    image.src = "C:/Users/lenovo/Documents/GitHub/learn-html-css-javascript/learnhtml/Images/"+ i +".png"; // Replace "placeholder.jpg" with the path to your image
+    images.appendChild(image);
+  }
+}
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<div clas="">
+
+Enter the number:
+<input type="text" id="textbox" onchange="countImages()">
+</div>
+<div id="images" class="gallery">
+  <!-- Images  -->
+
+</div>
+
+<script>
+function countImages() {
+  let txtValue = document.getElementById("textbox").value;
+  let imgList = document.getElementById("images");
+  images.innerHTML = "";
   let num = txtValue;
   
   // Display the specified number of images

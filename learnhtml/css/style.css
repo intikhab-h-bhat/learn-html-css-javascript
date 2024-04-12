@@ -123,19 +123,34 @@ body {
 }
 
 /* photo gallery */
+.enternum {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+
 .gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
-}
-.gallery:hover {
-  border: 1px solid #777;
+  width: 300px;
+  padding: 5px;
 }
 .gallery img {
-  width: 100%;
+  width: 50%;
   height: auto;
+  padding: 5px;
+  border: 1px solid #777;
 }
+.gallery img:hover {
+  border: 1px solid #777;
+  opacity: 0.5;
+}
+
 
 
   /* Responsive layout */
