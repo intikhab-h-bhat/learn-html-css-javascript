@@ -20,10 +20,10 @@ function countImages() {
   let txtValue = document.getElementById("textbox").value;
   let imgList = document.getElementById("images");
   images.innerHTML = "";
-  let num = txtValue;
+  let numimg = txtValue;
   
   // Display the specified number of images
-  for (let i = 1; i <= num; i++) {
+  for (let i = 1; i <= numimg; i++) {
     let image = document.createElement("img");
     image.src = "C:/Users/lenovo/Documents/GitHub/learn-html-css-javascript/learnhtml/Images/"+ i +".png"; // Replace "placeholder.jpg" with the path to your image
     images.appendChild(image);
