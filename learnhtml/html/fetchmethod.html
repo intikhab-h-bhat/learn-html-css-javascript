@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Fetcher</title>
+</head>
+<body>
+
+<label for="textbox">Enter number of images:</label>
+<input type="text" id="textbox" onchange="fetchImages()">
+
+<div id="imageContainer">
+  <!-- Images will be displayed here -->
+</div>
+
+<script>
+function fetchImages() {
+  var textboxValue = document.getElementById("textbox").value;
+  var imageContainer = document.getElementById("imageContainer");
+
+  // Clear existing images
+  imageContainer.innerHTML = "";
+
+  // Convert the textbox value to a number
+  var numImages = parseInt(textboxValue);
+
+  // Fetch images dynamically
+  for (var i = 1; i <= numImages; i++) {
+    fetch('https://source.unsplash.com/random') // Replace with your image API or URL
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.url;
+      })
+      .then(imageUrl => {
+        var image = document.createElement("img");
+        image.src = imageUrl;
+        imageContainer.appendChild(image);
+      })
+      .catch(error => {
+        console.error('There was a problem fetching the image:', error);
+      });
+  }
+}
+</script>
+
+</body>
+</html>
