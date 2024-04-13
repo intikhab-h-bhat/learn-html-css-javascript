@@ -2,14 +2,20 @@
 <html>
 <head>
   <title>Image Fetcher</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
 
+
+
+<div class="enternum">
+    <p>Photo Gallery (Using Fetch method)</p>
+
 <label for="textbox">Enter number of images:</label>
 <input type="text" id="textbox" onchange="fetchImages()">
-
-<div id="imageContainer">
-  <!-- Images will be displayed here -->
+</div>
+<div id="imageContainer" class="gallery">
+  
 </div>
 
 <script>
@@ -33,9 +39,9 @@ function fetchImages() {
         return response.url;
       })
       .then(imageUrl => {
-        var image = document.createElement("img");
-        image.src = imageUrl;
-        imageContainer.appendChild(image);
+        var img = document.createElement("img");
+        img.src = imageUrl;
+        imageContainer.appendChild(img);
       })
       .catch(error => {
         console.error('There was a problem fetching the image:', error);
