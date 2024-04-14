@@ -27,10 +27,6 @@ if (age >= 14 && hasvotercard == true) {
   console.log("You are not eligible");
 }
 
-// let isLoggedin = 0;
 
-// if (isLoggedin == 1) {
-//   document.write("Login");
-// } else {
-//   document.write("Logout");
-// }
+
+
