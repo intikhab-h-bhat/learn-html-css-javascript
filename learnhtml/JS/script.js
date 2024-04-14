@@ -4,6 +4,7 @@ for(i in car) {
 console.log(car[i])
 }
 
+
 // javascript template string
 let x = 'Intikhab'
 
@@ -16,5 +17,6 @@ if(age >= 14)
     console.log("you are eligible for voting");
 else
     console.log("You are not eligible");
+
 
 
