@@ -1,3 +1,7 @@
-let a = 5 ; 
-let z = a + 7; 
-alert(z)
+
+const car =["Maruti","Ford","Espresso","Ambasdor"]
+for(i in car) {
+console.log(car[i])
+}
+
+
