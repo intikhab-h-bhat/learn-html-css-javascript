@@ -27,5 +27,5 @@ while (count < 10) {
   {
     console.log(`${count}` + "is odd number")
   }
-
-
+  count++;
+}
