@@ -17,6 +17,7 @@ switch (input) {
 
 // Loops concept
 
+
 let count = 1;
 while (count < 10) {
   if(count % 2 ==0){
@@ -27,6 +28,4 @@ while (count < 10) {
     console.log(`${count}` + "is odd number")
   }
 
- 
-  count++;
-}
+
