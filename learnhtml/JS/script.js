@@ -17,9 +17,16 @@ switch (input) {
 
 // Loops concept
 
-let count = 0;
+let count = 1;
 while (count < 10) {
-  console.log("Hello");
+  if(count % 2 ==0){
+    console.log(`${count}` + "is even number")
+  }
+  else
+  {
+    console.log(`${count}` + "is odd number")
+  }
+
  
   count++;
 }
