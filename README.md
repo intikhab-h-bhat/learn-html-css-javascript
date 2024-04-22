@@ -1,5 +1,9 @@
 # learn-html-css-javascript
 
-Learn html css and javascript
+I am using this repositary to learn HTML, CSS and JavaScript
 
-First commit
+|Sno.|Topic|Description|
+|--- |  --- | ---|
+|1 |[HTML](#HTML) | Hyper Text Markup Language|
+|2|[CSS](#CSS)|Cascading Style Sheet|
+|3|[JavaScript](#JavaScript)|Java Script|
