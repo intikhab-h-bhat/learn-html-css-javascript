@@ -1,3 +1,6 @@
+# HTML page using basic tags or elements
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,3 +20,5 @@
     
   </body>
 </html>
+```
+![alt text](../images/imgfirst.png)

@@ -10,8 +10,8 @@ Back to [Home](../../README.md)
 
 # Contents
 
-| index | Title |
-| -------|-------|
-| 1 | [Html Structure and Basic Elements](htmlstructure.md) |
-| 2 | [HTML attributes]() |
+| index | Title |Description|
+| -------|-------|-------|
+| 1 | [Html Structure and Basic Elements](htmlstructure.md) |The basic structure of HTML and the elements and attribute|
+| 2 | [First HTML Page]() |Html Page using basic elements|
 | 3 | [HTML attributes]() |
