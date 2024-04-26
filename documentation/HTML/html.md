@@ -5,13 +5,13 @@
 Back to [Home](../../README.md)
 
 # Study Material
->
+
 > 1. <https://www.w3schools.com/html/html_intro.asp>
 
-# Knowledge Check
+# Contents
 
 | index | Title |
 | -------|-------|
-| 1 | [Html Structure]() |
-| 2 | [Basic Elements]() |
+| 1 | [Html Structure and Basic Elements](htmlstructure.md) |
+| 2 | [HTML attributes]() |
 | 3 | [HTML attributes]() |
