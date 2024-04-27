@@ -6,4 +6,4 @@ I am using this repositary to learn HTML, CSS and JavaScript
 |--- |  --- | ---|
 |1 |[HTML](documentation/HTML/html.md) | Hyper Text Markup Language|
 |2|[CSS](#CSS)|Cascading Stgit statusyle Sheet|
-|3|[JavaScript](#JavaScript)|Java Script|
+|3|[JavaScript](documentation/javascript.md)|Java Script|
