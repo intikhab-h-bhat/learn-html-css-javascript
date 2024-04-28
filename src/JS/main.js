@@ -1,25 +1,36 @@
+//Declaring a varable
+let name = "Intikhab Hussain Bhat";
+document.write(name);
 
+// let firstNAme = "Intikhab";
+// let lastName = "Bhat";
 
+let firstNAme = "Intikhab",
+  lastName = "Bhat";
+document.write(firstNAme + " " + lastName);
 
-function myFunction() {
-  document.getElementById("demo123").innerHTML = "Hello Javascript";
+//Another type of variable
+const PI = 3.14;
+console.log(PI);
+typeof PI;
+
+//Arrays
+let selectedColor = ["RED", "BLUE", "GREEN"];
+console.log(selectedColor);
+
+// Objects
+const person = {
+  name: "Abdullah",
+  age: 15,
+  dob: "04/12/2009",
 }
-function addNumbers() {
-  let x = 5;
-  let y = 10;
-  let z = x + y;
-  document.getElementById("addnum").innerHTML = z;
-}
+console.log(person)
+// person = 45 this gives error because person is constant variable
+person.name="Ahmad"
+person["friend"] = "Tabeen"
+console.log(person)
 
-// class Car {
-//   constructor(name,year) {
-//     this.name=name;
-//     this.year=year;
-//   }
-//   age() {
-//     const date=new Date();
-//     return date.getFullYear() - this.year;
-//   }
-//   }
-//   const car1 = new Car("Ford",2014);
-//   document.getElementById("para3").innerHTML = car1.age();
+//Expression and Operators
+
+
+
