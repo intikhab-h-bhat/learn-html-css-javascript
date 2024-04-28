@@ -31,6 +31,12 @@ person["friend"] = "Tabeen"
 console.log(person)
 
 //Expression and Operators
-
+let a=50;
+let b=30;
+console.log(`${a} + ${b} = `, a + b)
+console.log(`${a} - ${b} = `, a - b)
+console.log(`${a} / ${b} = `, a / b)
+console.log(`${a} % ${b} = `, a % b)
+console.log(`${a} * ${b} = `, a * b)
 
 
