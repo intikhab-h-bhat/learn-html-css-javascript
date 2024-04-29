@@ -33,10 +33,11 @@ console.log(person)
 //Expression and Operators
 let a=50;
 let b=30;
-console.log(`${a} + ${b} = `, a + b)
-console.log(`${a} - ${b} = `, a - b)
-console.log(`${a} / ${b} = `, a / b)
-console.log(`${a} % ${b} = `, a % b)
-console.log(`${a} * ${b} = `, a * b)
+console.log(`${a} + ${b} = `, a + b)//Addition
+console.log(`${a} - ${b} = `, a - b)//Subtraction
+console.log(`${a} / ${b} = `, a / b)//Division
+console.log(`${a} % ${b} = `, a % b)//Modulas
+console.log(`${a} * ${b} = `, a * b)//multplication
+console.log(`${a} ** ${b} = `, a ** b)//Exponential
 
 
