@@ -40,4 +40,16 @@ console.log(`${a} % ${b} = `, a % b)//Modulas
 console.log(`${a} * ${b} = `, a * b)//multplication
 console.log(`${a} ** ${b} = `, a ** b)//Exponential
 
+// Increament and Decreament operator
+console.log(a++,"increamented by 1");
+console.log(a);
+
+console.log(++a) 
+
+console.log(a--,'Decreament by 1');
+console.log(a);
+
+console.log(--a) 
+
+
 
