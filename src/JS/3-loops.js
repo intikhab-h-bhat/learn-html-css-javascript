@@ -36,3 +36,17 @@ for( stu of "Ahmad"){
         i++;
     }
     console.log(sum)
+
+
+    //**********Practise examples
+    //Example to grt the marks of students
+
+    const marks={
+        "Ahmad":90,
+        "Sareena":95,
+        "Azka":65
+    }
+
+    for(let i=0;i<Object.keys(marks).length;i++){
+        console.log("Marks of "+ Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]])
+    } 
