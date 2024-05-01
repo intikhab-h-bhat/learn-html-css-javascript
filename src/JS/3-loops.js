@@ -50,3 +50,6 @@ for( stu of "Ahmad"){
     for(let i=0;i<Object.keys(marks).length;i++){
         console.log("Marks of "+ Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]])
     } 
+
+    const myHeading = document.querySelector("h1");
+myHeading.textContent = "Hello world!";
