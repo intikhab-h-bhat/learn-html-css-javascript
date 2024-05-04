@@ -70,3 +70,4 @@ while (num != cn) {
   num = prompt("Enter the number");
 }
 console.log("You enetered correct number");
+
