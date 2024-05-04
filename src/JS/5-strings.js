@@ -21,4 +21,16 @@ console.log(fname.toUpperCase());
 console.log(fname.slice(2, 4));
 console.log(fname.slice(1));
 // replace meyhod
-console.log(fname.replace("a","e"))
+console.log(fname.replace("a", "e"));
+// string Concatination
+let lname = "Intikhab";
+console.log(fname.concat(" ", lname));
+
+//Using loop to go through the string
+for (let i = 0; i < fname.length; i++) {
+  console.log(fname[i]);
+}
+
+for(let i in fname){
+    console.log(fname[i])
+}
