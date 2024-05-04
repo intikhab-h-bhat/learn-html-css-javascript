@@ -34,3 +34,9 @@ for (let i = 0; i < fname.length; i++) {
 for(let i in fname){
     console.log(fname[i])
 }
+
+// using includes
+const sentence="The quick fox ran over a lazy dog";
+const word='hello';
+console.log(sentence.includes(word))
+console.log(`The word "${word}"  ${sentence.includes(word)? "is" : "is not"} in the sentence`)
