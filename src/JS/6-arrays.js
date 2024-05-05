@@ -27,7 +27,13 @@ console.log(marks);
 delete marks[0]; //using delete ther is no change in array length
 console.log(marks, marks.length);
 //concat arrays
-let names=["sareena","Ahmad","Mohammad"]
-let age=[12,11,14]
-let numage=names.concat(age)
-console.log(numage)
+let names = ["sareena", "Ahmad", "Mohammad"];
+let age = [12, 11, 14];
+let stumarks = [229,75,335, 123,85,72, 65];
+let numage = names.concat(age, stumarks);
+console.log(numage);
+
+//SORT method 
+names.sort() //using sort origional array is changed
+stumarks.sort()
+console.log(names,stumarks)
