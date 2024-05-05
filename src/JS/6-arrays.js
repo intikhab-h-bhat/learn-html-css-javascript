@@ -70,3 +70,14 @@ items.forEach((a) => {
 let stuname = "Kashif";
 let arr = Array.from(stuname);
 console.log(arr);
+
+
+//for of and for in
+//for of returns the array
+//for in returns the keys or index of array
+for(let item of items){
+    console.log(item,"for of loof")
+}
+for(let i in items){
+    console.log(i,"for in loof")
+}
