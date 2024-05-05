@@ -38,10 +38,35 @@ names.sort(); //using sort origional array is changed
 stumarks.sort();
 console.log(names, stumarks);
 
-// using sort and compare function 
+// using sort and compare function
 // (compare funcyion is used to sort in assending or descending order)
 let compare = (a, b) => {
   return b - a;
 };
-stumarks.sort(compare) 
-console.log(stumarks)
+stumarks.sort(compare);
+console.log(stumarks);
+
+//Reverse method
+stumarks.reverse();
+console.log(stumarks);
+
+// splice and slice
+//splice is used to add new elements in an array
+//slice is used to create anew array
+let deletedelem = stumarks.splice(2, 3, 500, 600, 700, 800);
+console.log(stumarks, deletedelem);
+let childarray = stumarks.slice(2);
+console.log(childarray);
+let childarray2nd = stumarks.slice(2, 6);
+console.log(childarray2nd);
+
+//foreach loop in js
+let items = [2, 3, 4, 5, 6];
+items.forEach((a) => {
+  console.log(a * a);
+});
+//Array.from
+//used to create array from string or html colection
+let stuname = "Kashif";
+let arr = Array.from(stuname);
+console.log(arr);
