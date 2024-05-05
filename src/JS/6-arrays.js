@@ -29,11 +29,19 @@ console.log(marks, marks.length);
 //concat arrays
 let names = ["sareena", "Ahmad", "Mohammad"];
 let age = [12, 11, 14];
-let stumarks = [229,75,335, 123,85,72, 65];
+let stumarks = [229, 75, 335, 123, 85, 72, 65];
 let numage = names.concat(age, stumarks);
 console.log(numage);
 
-//SORT method 
-names.sort() //using sort origional array is changed
-stumarks.sort()
-console.log(names,stumarks)
+//SORT method  sorts in alphabitaical order
+names.sort(); //using sort origional array is changed
+stumarks.sort();
+console.log(names, stumarks);
+
+// using sort and compare function 
+// (compare funcyion is used to sort in assending or descending order)
+let compare = (a, b) => {
+  return b - a;
+};
+stumarks.sort(compare) 
+console.log(stumarks)
