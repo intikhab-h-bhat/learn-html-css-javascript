@@ -6,13 +6,11 @@ let guessNumber = prompt("Guess The Number");
 while (guessNumber != random) {
   if (guessNumber < random) {
     chances = chances + 1;
-    guessNumber = prompt("Guess The Number again");
-   
+    guessNumber = prompt("Guess The Number again");   
     console.log("guessNumber is less than the random nuumber");
   } else if (guessNumber > random) {
     chances = chances + 1;
-    guessNumber = prompt("Guess The Number again");
-    
+    guessNumber = prompt("Guess The Number again");    
     console.log("guessNumber is greater than the random nuumber");
   }
 }
