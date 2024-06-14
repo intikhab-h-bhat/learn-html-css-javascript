@@ -4,7 +4,7 @@
 let array1 = [24, 35, 45];
 let a = array1.map((value, index, array) => {
   //   console.log(value, index, array);
-  value = value + 2;
+  value = value + 3;
   return value;
 });
 // console.log(a);
