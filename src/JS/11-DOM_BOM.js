@@ -7,11 +7,11 @@ let age = prompt("Enter age");
 age = Number.parseInt(age);
 
 
-if (age < 0) {
-  console.error("Please enter the valid value");
+ if (age < 0) {
+ console.error("Please enter the valid value");
 } else {
     const CanDrive = (age) => {
-        age >= 20 ? true : false;
+        return age >= 20 ? true : false;
       }
 
   if (CanDrive(age)) {
