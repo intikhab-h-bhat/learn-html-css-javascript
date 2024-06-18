@@ -21,12 +21,16 @@
 //   }
 // }
 
-console.log(document.body.firstChild);
-console.log(document.body.firstChild.firstChild);
-console.log(document.body.lastChild);
-console.log(document.body.childNodes);
-console.log(document.body.firstChild.nextSibling);
+// console.log(document.body.firstChild);
+// console.log(document.body.firstChild.firstChild);
+// console.log(document.body.lastChild);
+// console.log(document.body.childNodes);
+// console.log(document.body.firstChild.nextSibling);
+// console.log(document.body.firstChild.nextElementSibling);
+
+// to get elements child only 
 console.log(document.body.firstChild.nextElementSibling);
+console.log(document.body.firstChild.firstChild.nextElementSibling);
 
 
 
