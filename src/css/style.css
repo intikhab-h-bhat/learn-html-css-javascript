@@ -274,6 +274,13 @@ form .txt_field{
     }
 }
 
+ul{
+  display:flex;
+}
+ul li {
+  list-style: none;
+  margin: 0 23px;
+}
 
 
 
