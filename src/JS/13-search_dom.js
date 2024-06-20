@@ -8,3 +8,8 @@ let c = document.querySelectorAll(".card-title")
 c[0].style.color= "red";
 c[1].style.color= "blue";
 c[2].style.color= "green";
+
+document.querySelector(".this").style.color="yellow"
+document.querySelector(".this").style.background="purple"
+document.querySelector(".that").style.color="gray"
+document.querySelector(".that").style.background="orange"
