@@ -46,10 +46,10 @@ HTML is the standard markup language for creating Web pages.
 An HTML element is defined by a start tag, some content, and an end tag:
 <tagname> Content goes here... </tagname>
 The HTML element is everything from the start tag to the end tag:
-
+ ```HTML
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
-
+```
 ## Web Browsers
 
 Web browsers show the results of an HTML code. It reads HTML files and determines how to show content with the help of HTML tags.
