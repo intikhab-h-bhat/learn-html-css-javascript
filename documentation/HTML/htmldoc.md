@@ -4,9 +4,16 @@ HTML is the standard markup language for creating Web pages.
 ## What Is HTML?
 * HTML stands for Hyper Text Markup Language
 * HTML is the standard markup language for creating Web pages
+*  It was introduced by Tim Berners-Lee in 1991 at CERN as a simple markup language. Since then, it has evolved through versions from HTML 2.0 to HTML5 (the latest 2024 version).
 * HTML describes the structure of a Web page
 * HTML consists of a series of elements
 * HTML elements tell the browser how to display the content
+
+##  Features of HTML
+* It is easy to learn and easy to use.
+* It is platform-independent.
+* Images, videos, and audio can be added to a web page.
+
 
 ## HTML Structure
 
@@ -43,8 +50,18 @@ The HTML element is everything from the start tag to the end tag:
 <h1>My First Heading</h1>
 <p>My first paragraph.</p>
 
+## Web Browsers
 
+Web browsers show the results of an HTML code. It reads HTML files and determines how to show content with the help of HTML tags.
+Any web browser (Google, Safari, Mozilla Firefox, etc) can be used to open a . HTML file and view the results.
 
+## Advantages of HTML
+* HTML is used to build websites.
+* It is supported by all browsers.
+* It can be integrated with other languages like CSS, JavaScript, etc.
+
+## HTML History
+![image](https://github.com/intikhab-h-bhat/learn-html-css-javascript/assets/44907729/48561696-c559-47ac-a97d-fc9b755f782b)
 
 
 
